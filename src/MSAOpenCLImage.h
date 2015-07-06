@@ -59,7 +59,7 @@ namespace msa {
 		// parameters with default values can be omited
 		void initWithTexture(int width,
 							 int height,
-							 int glTypeInternal = GL_RGBA,
+							 int glInternalFormat = GL_RGBA,
 							 cl_mem_flags memFlags = CL_MEM_READ_WRITE);
 		
 		
